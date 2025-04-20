@@ -1,12 +1,13 @@
-# Ignorar arquivos grandes
+# Ignorar arquivos executáveis, binários e pacotes
 *.exe
+*.pkg
 *.dll
 *.lib
 
-# Ambientes virtuais e pacotes
+# Ignorar pastas do ambiente virtual e build
 meu_ambiente/
 venv/
 __pycache__/
 dist/
-Lib/
 build/
+Lib/
