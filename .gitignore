@@ -1,17 +1,12 @@
-# Ignora o ambiente virtual
-meu_ambiente/
-venv/
-Lib/
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
+# Ignorar arquivos grandes
 *.exe
 *.dll
 *.lib
-*.so
-*.log
-*.zip
-*.tar
-*.gz
-*.whl
+
+# Ambientes virtuais e pacotes
+meu_ambiente/
+venv/
+__pycache__/
+dist/
+Lib/
+build/
