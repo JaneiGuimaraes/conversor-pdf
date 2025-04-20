@@ -1,15 +1,17 @@
+# Ignora o ambiente virtual
+meu_ambiente/
+venv/
+Lib/
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-.Python
-env/
-venv/
-meu_ambiente/
-Lib/
-build/
-dist/
-*.egg-info/
 *.exe
 *.dll
 *.lib
+*.so
+*.log
+*.zip
+*.tar
+*.gz
+*.whl
